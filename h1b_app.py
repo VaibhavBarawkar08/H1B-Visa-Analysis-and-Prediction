@@ -4,7 +4,8 @@ import joblib
 import base64
 
 # Load trained model
-model = joblib.load('xgboost_model.pkl')
+model = joblib.load('xgboost_pipeline_v3.joblib')
+
 
 # Set page title
 st.set_page_config(page_title="H1B Visa Approval Prediction", layout="centered")
